@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Central - Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Adding a custom CSS file for additional styling -->
+  <style>
+    body {
+      font-family: 'Press Start 2P', cursive; /* Apply custom font */
+      background-image: url(download\ \(1\).jpg); /* Specify the path to your background image */
+      background-size: cover; /* Cover the entire background */
+      background-position: center; /* Center the background image */
+    }
+    /* Custom styles for Contact page */
+    .jumbotron {
+      background-image: linear-gradient(45deg, #f8bbd0, #ffc0cb); /* Gradient from light pink to pink */
+      color: #fff; /* White text */
+    }
+    .form-control {
+      background-color: #fff; /* White background for form inputs */
+      border-color: #f06292; /* Pink border for form inputs */
+    }
+    .btn-primary {
+      background-image: linear-gradient(45deg, #f06292, #ec407a); /* Gradient from pink to darker pink */
+      border-color: #f06292; /* Pink border color for submit button */
+    }
+    .btn-primary:hover {
+      background-image: linear-gradient(45deg, #ec407a, #e91e63); /* Gradient from darker pink to magenta on hover */
+      border-color: #ec407a; /* Darker pink border color on hover for submit button */
+    }
+    footer {
+      background-image: linear-gradient(45deg, #f06292, #ec407a); /* Gradient from pink to darker pink for footer */
+      color: #fff; /* White text */
+      font-family: 'Press Start 2P', cursive; /* Apply gaming font to footer */
+    }
+    .navbar-brand:hover, .nav-link:hover {
+      color: #f48fb1 !important; /* Light pink text on hover */}
+  </style>
+  <!-- Importing custom font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3d9c7c1f50.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Gaming Central</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="bi bi-house-door"></i><i class="fa-sharp fa-solid fa-house"></i> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="games.html"><i class="bi bi-controller"></i> <i class="fa-solid fa-gamepad"></i> Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reviews.html"><i class="bi bi-star"></i> <i class="fa-solid fa-scroll"></i> Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="bi bi-person"></i><i class="fa-sharp fa-solid fa-user"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><i class="bi bi-envelope"></i><i class="fa-sharp fa-solid fa-phone"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid text-center"> <!-- Changed header background to gradient -->
+    <div class="container">
+      <h1 class="display-4">Contact Us</h1>
+      <p class="lead">Have a question or suggestion? Get in touch with us!</p>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-2"> <!-- Changed footer background to gradient -->
+    <p>&copy; 2024 Gaming Central</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

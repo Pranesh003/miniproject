@@ -1,0 +1,89 @@
+/* Custom CSS for the website */
+
+/* General Styles */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background: linear-gradient(45deg, #343a40, #212529); /* Dark gradient for the jumbotron */
+  color: #fff;
+  padding: 3rem 1rem;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+}
+
+/* Card Styles */
+.card {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+/* Footer Styles */
+footer {
+  background: linear-gradient(45deg, #343a40, #212529); /* Dark gradient for the footer */
+  color: #fff;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Form Styles */
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff4f4f;
+  border-color: #ff4f4f;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.5);
+}
